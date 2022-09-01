@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 摸鱼
+subtitle: '偶尔社恐，经常路痴，喜欢周五'
+description: '兴趣使然的Blog'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: 好想摸鱼
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://wsblog.netlify.app
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -62,7 +62,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 12
   order_by: -date
 
 # Category & Tag
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,3 +105,22 @@ deploy:
   type: git
   repository: git@github.com:Aa-bN/MyBlog.git
   branch: main
+
+# Search
+search:
+  path: search.xml
+  field: post
+
+# pin yin
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+
+# emoji support
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:
+
