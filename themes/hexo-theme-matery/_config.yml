@@ -290,7 +290,7 @@ gitalk:
     clientId: 8338a1946a675533ff28
     clientSecret: 76979f1dc1b6bd8743c54f71036ff9b34d401363
   admin: Aa-bN
-  proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token
+  proxy: https://cloudflareproxy.mbloggitalk.workers.dev/?https://github.com/login/oauth/access_token
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
