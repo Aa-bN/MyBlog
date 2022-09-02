@@ -285,7 +285,7 @@ postCalendar: true
 gitalk:
   enable: true
   owner: Aa-bN
-  repo: MyBlog-Comment
+  repo: MyBlog-Comment.github.io
   oauth:
     clientId: 8338a1946a675533ff28
     clientSecret: 76979f1dc1b6bd8743c54f71036ff9b34d401363
