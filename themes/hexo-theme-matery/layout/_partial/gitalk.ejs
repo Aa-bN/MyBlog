@@ -19,8 +19,8 @@
         admin: <%- JSON.stringify(theme.gitalk.admin) %>,
         id: '<%- date(page.date, 'YYYY-MM-DDTHH-mm-ss') %>',
         distractionFreeMode: false,  // Facebook-like distraction free mode
-        // proxy: "<%- theme.gitalk.proxy %>"
-        proxy: "https://cloudflareproxy.mbloggitalk.workers.dev/?https://github.com/login/oauth/access_token"
+        proxy: '<%- theme.gitalk.proxy %>'
+        //proxy: "https://cloudflareproxy.mbloggitalk.workers.dev/?https://github.com/login/oauth/access_token"
     });
 
     gitalk.render('gitalk-container');
