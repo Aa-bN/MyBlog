@@ -24,7 +24,7 @@ reprintPolicy: cc_by
 > 
 > 未使用加速服务
 ## 2. 代码
-```
+```python
 class Resnet34FCN(nn.Module):
     def __init__(self):
         super(Resnet34FCN, self).__init__()
