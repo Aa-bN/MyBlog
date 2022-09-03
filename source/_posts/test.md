@@ -8,7 +8,7 @@ cover: true
 coverImg:
 password:
 toc: true
-mathjax: false
+mathjax: true
 summary: 这是一篇测试用文章,，本段为摘要
 categories: 测试
 tags:
@@ -73,3 +73,6 @@ class Resnet34FCN(nn.Module):
 
         return s
 ```
+
+## 3. 数学公式
+\\[y = {f_{ {g_1}}}(x)\\]
