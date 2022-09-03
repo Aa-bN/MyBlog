@@ -75,4 +75,5 @@ class Resnet34FCN(nn.Module):
 ```
 
 ## 3. 数学公式
-\\[y = {f_{ {g_1}}}(x)\\]
+$y = f(x)$  
+$$\sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6}$$
