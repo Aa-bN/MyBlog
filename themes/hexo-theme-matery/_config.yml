@@ -567,8 +567,8 @@ subtitle:
   startDelay: 300 # 开始延迟
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
-  sub1: 从来没有真正的绝境, 只有心灵的迷途
-  sub2: Never really desperate, only the lost of the soul
+  sub1: 乾坤未定，你我皆是牛马。
+  sub2: 略有瑕疵的54号混凝土。
 
 # 手机二级菜单.
 navMenu:
