@@ -4,7 +4,7 @@ date: 2022-09-01 21:12:44
 author: 好想摸鱼
 img:
 top: true
-cover: true
+cover: false
 coverImg:
 password:
 toc: true
