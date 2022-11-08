@@ -238,13 +238,13 @@ mySkills:
     摸鱼:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
       percent: 95%
-    JavaScript:
+    算法:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
       percent: 30%
-    HTML5:
+    接化发:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
       percent: 70%
-    CSS:
+    深度学习:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
       percent: 50%
     睡觉:
