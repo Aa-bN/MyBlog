@@ -79,4 +79,4 @@ $y = f(x)$
 $$\sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6}$$
 
 ## 4. 视频
-<iframe height=498 width=510 src="https://wsblog.netlify.app/medias/video/cxk.mp4">
+<iframe height=540 width=960 src="https://wsblog.netlify.app/medias/video/cxk.mp4">
