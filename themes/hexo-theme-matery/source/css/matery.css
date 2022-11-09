@@ -2143,12 +2143,12 @@ footer .copy-right {
 
 /* 滚动条 */
 ::-webkit-scrollbar-thumb {
-    background-color: #FF2A68;
+    background-color: #2affc3;
     background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent);
     border-radius: 3em;
 }
 ::-webkit-scrollbar-track {
-    background-color: #ffcacaff;
+    background-color: rgb(126, 134, 218);
     border-radius: 3em;
 }
 ::-webkit-scrollbar {
