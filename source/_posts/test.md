@@ -9,7 +9,7 @@ coverImg:
 password:
 toc: true
 mathjax: true
-summary: 这是一篇测试用文章,，本段为摘要
+summary: 这是一篇测试用文章,本段为摘要
 categories: 测试
 tags:
     - test
