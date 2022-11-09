@@ -7,13 +7,13 @@
 }, {
     "avatar": "http://image.luokangyuan.com/4027734.jpeg",
     "name": "闪烁之狐",
-    "introduction": "我也不认识他，总之去学习就对了",
+    "introduction": "matery模板开发大佬",
     "url": "https://blinkfox.github.io/",
     "title": "前去学习"
 }, {
-    "avatar": "http://image.luokangyuan.com/avatar.jpg",
-    "name": "ja_rome",
-    "introduction": "我也不认识，冲就对了",
-    "url": "https://me.csdn.net/jlh912008548",
-    "title": "前去学习"
+    "avatar": "./themes/hexo-theme-matery/source/favicon.png",
+    "name": "你的名字",
+    "introduction": "v我50，留下你的身影",
+    "url": "",
+    "title": "等你~~"
 }]
