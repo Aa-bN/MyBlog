@@ -258,11 +258,11 @@ mySkills:
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
-  enable: false
+  enable: true
   data:
-    - /medias/featureimages/0.jpg
-    - /medias/featureimages/1.jpg
-    - /medias/featureimages/2.jpg
+    - /medias/featureimages/A.jpg
+    - /medias/featureimages/B.jpg
+    - /medias/featureimages/C.png
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -604,7 +604,7 @@ jsDelivr:
   
 # 网站背景图
 background:
-  enable: false
+  enable: true
   url: "https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg"
 
 # 说说 https://artitalk.js.org/
