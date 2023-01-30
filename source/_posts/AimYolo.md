@@ -59,7 +59,7 @@ reprintPolicy: cc_by
 
 ### 1. 总体设计
 <div align=center>
-<img src="/medias/BlogPictures/1. AimYolo/pictures/1. 总体思路.png" width = 65%>
+<img src="/medias/BlogPictures/1. AimYolo/pictures/1. 总体思路.png" width = 100%>
 </div>
 
 ### 2. 屏幕实时捕获
