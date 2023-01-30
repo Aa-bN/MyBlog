@@ -78,10 +78,11 @@ reprintPolicy: cc_by
 
 ### 2. 屏幕实时捕获
 
-这里并非真正的实时，而是从屏幕截取到模型推理，再到鼠标移动，整个过程的用时很少，宏观感受为实时。看图（づ￣3￣）づ╭❤～。
+这里并非真正的实时，而是从屏幕截取到模型推理，再到鼠标移动，整个过程的用时很少，宏观感受为实时。废话少说，看图（づ￣3￣）づ╭❤～。
 
 <div align=center>
-<img src="/medias/BlogPictures/1. AimYolo/pictures/1. 屏幕实时获取.png" width = 100%>
+<img src="/medias/BlogPictures/1. AimYolo/pictures/2. 屏幕实时获取.png" width = 100%>
+</div>
 
 ### 3. 鼠标定位与移动
 
