@@ -58,7 +58,7 @@ reprintPolicy: cc_by
 本节分为**总体设计**、**屏幕实时捕获**、**鼠标定位与移动**和**代码重构**等4个部分
 
 ### 1. 总体设计
-
+![test](/medias/BlogPictures/1. AimYolo/pictures/1. test.emf)
 
 ### 2. 屏幕实时捕获
 
