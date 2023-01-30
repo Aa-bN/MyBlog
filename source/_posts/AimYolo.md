@@ -2,7 +2,7 @@
 title: AimYolo
 date: 2023-01-30 16:58:05
 author: 好想摸鱼
-img:
+img: /medias/BlogPictures/1. AimYolo/cover/cover.PNG
 top: True
 cover: False
 coverImg: https://wsblog.netlify.app/medias/BlogPictures/1. AimYolo/cover/cover.PNG
