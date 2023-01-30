@@ -74,7 +74,7 @@ reprintPolicy: cc_by
 - **专用/通用数据集**：如CSGO数据集（标注CT，CT_Head，T，T_Head），传统人体识别数据集等
 - **模型训练**：由于待检测目标一般较少，且对速度要求较高，选取s版本的模型
 - **整体**：整体采用单进程，在While循环中持续检测，并设置信号用于结束进程，后续完善为根据指定键位，更改AI姿态（大概会吧T_T）
-
+---
 
 ### 2. 屏幕实时捕获
 
@@ -84,7 +84,17 @@ reprintPolicy: cc_by
 <img src="/medias/BlogPictures/1. AimYolo/pictures/2. 屏幕实时获取.png" width = 70%>
 </div>
 
-- **CPU截屏**：采用mss库进行截屏；也可以采用d3dshot库进行GPU截屏，
+- **CPU截屏**：采用mss库进行截屏；也可以采用d3dshot库进行GPU截屏，但其中会涉及numpy和tensor数据的运算速度、显卡的设置问题，不推荐
+- **实时截图与展示**：将截取的画面实时展示，便于测试与直观感受，根据参数配置作为可选项
+
+以只因哥打篮球的视频为例，这个部分的效果应该是这样的。（づ￣3￣）づ╭❤～
+
+<div align=center>
+<iframe height=360 width=640 src="https://wsblog.netlify.app/medias/video/cxk.mp4">
+</div>
+
+---
+
 
 ### 3. 鼠标定位与移动
 
