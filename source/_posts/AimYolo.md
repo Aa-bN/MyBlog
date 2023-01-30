@@ -90,7 +90,7 @@ reprintPolicy: cc_by
 以只因哥打篮球的视频为例，这个部分的效果应该是这样的。（づ￣3￣）づ╭❤～
 
 <div align=center>
-<iframe height=360 width=640 src="https://wsblog.netlify.app/medias/video/cxk.mp4">
+<iframe height=360 width=640 src="/medias/video/cxk.mp4">
 </div>
 
 ---
