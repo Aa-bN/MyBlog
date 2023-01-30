@@ -60,7 +60,7 @@ reprintPolicy: cc_by
 
 ### 1. 总体设计
 
-项目整体分为8个模块，如图所示。
+项目整体分为8个模块，看图。（づ￣3￣）づ╭❤～
 
 <div align=center>
 <img src="/medias/BlogPictures/1. AimYolo/pictures/1. 总体思路.png" width = 100%>
@@ -129,7 +129,31 @@ reprintPolicy: cc_by
     - 更先进的Scan Codes和Win32 Sendinput方法，实现游戏内的键鼠快速控制
     - 如图，采用了**Ctypes库**
     - 在一些老游戏，如CS1.6中，则不用考虑这些
+---
 
 ### 4. 代码重构
 
+重构了YOLOv5中的detect.py：保留核心模型，更改原有逻辑，添加自定义功能。看图。（づ￣3￣）づ╭❤～
+
+<div align=center>
+<img src="/medias/BlogPictures/1. AimYolo/pictures/4. 代码重构.png" width = 100%>
+</div>
+
+更多细节留给**代码说明**部分。
+
+---
+
+## 三、模型训练
+
+
+## 四、代码说明
+
+
+## 五、项目部署与展示
+
+
+## 六、总结
+
+
+## 参考
 
