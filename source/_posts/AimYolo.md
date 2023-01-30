@@ -5,7 +5,7 @@ author: 好想摸鱼
 img:
 top: True
 cover: False
-coverImg: /medias/BlogPictures/1. AimYolo/cover/cover.PNG
+coverImg: https://wsblog.netlify.app/medias/BlogPictures/1. AimYolo/cover/cover.PNG
 password:
 toc: true
 mathjax: true
