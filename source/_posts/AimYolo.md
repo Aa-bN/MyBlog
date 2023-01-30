@@ -89,12 +89,17 @@ reprintPolicy: cc_by
 
 以只因哥打篮球的视频为例，这个部分的效果应该是这样的。（づ￣3￣）づ╭❤～
 
+<!-- <div align=center>
+<iframe height=360 width=640 frameborder=0 src="/medias/video/cxk.mp4">
+</div> 这样写显示有问题-->
+
 <div align=center>
-<iframe height=360 width=640 src="/medias/video/cxk.mp4">
+<video width="640" height="360" controls>
+<source src="/medias/video/cxk.mp4">
+</video>
 </div>
 
 ---
-
 
 ### 3. 鼠标定位与移动
 
