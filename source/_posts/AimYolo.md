@@ -188,7 +188,7 @@ reprintPolicy: cc_by
 本小节展示了训练过程中产生的数据和预测效果。
 1. **超参数**  
     <div align=center>
-    <img src="/medias/BlogPictures/1. AimYolo/pictures/10. 11.PNG" width = 100%>
+    <img src="/medias/BlogPictures/1. AimYolo/pictures/10. 11.PNG" width = 60%>
     </div>
 2. **训练结果**  
     <div align=center>
@@ -202,12 +202,17 @@ reprintPolicy: cc_by
     <img src="/medias/BlogPictures/1. AimYolo/pictures/14. test.PNG" width = 100%>
     </div>
 
-需要说明的是，模型在预训练(pretrained)的YOLOv5s的权重基础上，进行了不太严格的微调（fine-tune）。图中示例均为模型训练200轮的结果。实际上，模型在训练50轮时，就已经能够初步使用了。
+需要说明的是，模型在预训练（pretrained）的YOLOv5s的权重基础上，进行了不太严格的微调（fine-tune）。图中示例均为模型训练200轮的结果。实际上，模型在训练50轮时，就已经能够初步使用了。
 
 ---
 
-## 四、代码说明
+## 四、核心代码
 
+核心代码集中在**z_captureScreen.py**，**z_ctypes**，**z_detect5.py**中。  
+
+懒得写了，相信以你的聪明才智，一定可以看明白哒，哒哒哒。（づ￣3￣）づ╭❤～
+
+---
 
 ## 五、项目部署与展示
 
