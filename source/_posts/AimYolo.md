@@ -51,7 +51,7 @@ reprintPolicy: cc_by
     - 10系显卡效果明显不如30系（o(╥﹏╥)o）
     ---
 
-值得注意的是，AI外挂几年前就已经出现，最初为YouTube上的一位创作者开发，网络上也可以找到一些版本。本项目理论上可以用于CSGO、APEX、PUBG等多种游戏，实际以CSGO为例进行了模型的开发与使用。相对于传统外挂，AI外挂多基于目标检测算法，不会修改游戏的本地内存，也不会上传恶意数据。本文后续有6个部分：**开发过程**、**模型训练**、**代码说明**、**项目部署与展示**、**总结**与**参考**。
+值得注意的是，AI外挂几年前就已经出现，最初为YouTube上的一位创作者开发，网络上也可以找到一些版本。本项目理论上可以用于CSGO、APEX、PUBG等多种游戏，实际以CSGO为例进行了模型的开发与使用。相对于传统外挂，AI外挂多基于目标检测算法，不会修改游戏的本地内存，也不会上传恶意数据。本文后续有6个部分：**开发过程**、**模型开发**、**核心代码**、**项目部署与展示**、**总结**与**参考**。
 
 ---
 
@@ -114,7 +114,7 @@ reprintPolicy: cc_by
   - step1. 获取鼠标当前位置的坐标/像素
   - step2. 结合YOLO，根据检测框计算坐标
   - step3. 计算欧式距离，移动鼠标
-  - **特别注意**（部分问题会在**代码说明**部分解释）
+  - **特别注意**（部分问题会在**核心代码**部分解释）
     - 鼠标移动时的绝对距离与相对距离（一般为相对距离，故计算了欧氏距离）
     - 物理距离与分辨率不一致的问题（开启DPI感知）
     - 一些游戏需要关闭原始输入
@@ -139,11 +139,53 @@ reprintPolicy: cc_by
 <img src="/medias/BlogPictures/1. AimYolo/pictures/4. 代码重构.png" width = 100%>
 </div>
 
-更多细节留给**代码说明**部分。
+更多细节留给**核心代码**部分。
 
 ---
 
-## 三、模型训练
+## 三、模型开发
+本节分为**模型结构**、**数据集**和**模型训练**等3个部分。
+
+### 1. 模型结构
+采取的模型结构，看图。具体介绍可参考[江佬的博客](https://blog.csdn.net/nan355655600/article/details/107852353)，该图也源此。（づ￣3￣）づ╭❤～
+
+<div align=center>
+<img src="/medias/BlogPictures/1. AimYolo/pictures/5. yolov5s.PNG" width = 100%>
+</div>
+
+需要说明的是：
+  - **代码版本**：YOLOv5-2.0
+  - **选取模型**：Pretrained YOLOv5s，后续训练时，以此为依托，进行不太严格的fine-tune
+  - **任务类型**：目标检测
+---
+
+### 2. 数据集
+本小节对使用的数据集进行介绍。
+1. **CSGO专用数据集**  
+   [数据集项目地址](https://github.com/qcjxs-hn/yolov5-csgo)。时间有限，并没有进行数据集的构建，当时，这个项目解决了博主的燃眉之急。值得说明的是，该项目的创作者也附加了一些单纯的检测代码。
+2. **检测类别数：4**  
+   **ct, t, t_head, ct_head**，即反恐精英，恐怖分子，恐怖分子头部，反恐精英头部。这有利于模型进行目标身体或头部的检测与锁定。
+3. **数据集划分**  
+   图片总数：800张。博主进行主观划分->训练集：700张，验证集：100张。
+4. **数据分布特征**  
+   <div align=center>
+    <img src="/medias/BlogPictures/1. AimYolo/pictures/6. labels.png" width = 100%>
+    </div>
+5. **数据示例**  
+   img_250.jpg的**原始图像信息**、**标签信息**，以及**一些图片的groundtruth**如下。（づ￣3￣）づ╭❤～
+    <div align=center>
+    <img src="/medias/BlogPictures/1. AimYolo/pictures/7. img_250.jpg" width = 100%>
+    </div>
+    <div align=center>
+    <img src="/medias/BlogPictures/1. AimYolo/pictures/8. img_205_label.PNG" width = 100%>
+    </div>
+    <div align=center>
+    <img src="/medias/BlogPictures/1. AimYolo/pictures/9. test_batch0_gt.jpg" width = 100%>
+    </div>
+---
+
+### 3. 模型训练
+
 
 
 ## 四、代码说明
