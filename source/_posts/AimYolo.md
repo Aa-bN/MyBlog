@@ -169,15 +169,15 @@ reprintPolicy: cc_by
    图片总数：800张。博主进行主观划分->训练集：700张，验证集：100张。
 4. **数据分布特征**  
    <div align=center>
-    <img src="/medias/BlogPictures/1. AimYolo/pictures/6. labels.png" width = 100%>
+    <img src="/medias/BlogPictures/1. AimYolo/pictures/6. labels.png" width = 60%>
     </div>
 5. **数据示例**  
    img_250.jpg的**原始图像信息**、**标签信息**，以及**一些图片的groundtruth**如下。（づ￣3￣）づ╭❤～
     <div align=center>
-    <img src="/medias/BlogPictures/1. AimYolo/pictures/7. img_250.jpg" width = 100%>
+    <img src="/medias/BlogPictures/1. AimYolo/pictures/7. img_250.jpg" width = 60%>
     </div>
     <div align=center>
-    <img src="/medias/BlogPictures/1. AimYolo/pictures/8. img_205_label.PNG" width = 100%>
+    <img src="/medias/BlogPictures/1. AimYolo/pictures/8. img_205_label.PNG" width = 60%>
     </div>
     <div align=center>
     <img src="/medias/BlogPictures/1. AimYolo/pictures/9. test_batch0_gt.jpg" width = 100%>
