@@ -234,20 +234,32 @@ reprintPolicy: cc_by
 
 ### 3. 游戏内展示
 **CSGO中，注意在游戏内设置中关闭数据原始输入。**
-<div align=center>
+<!-- <div align=center>
 <video width="800" height="600" controls>
 <source src="http://player.bilibili.com/player.html?aid=651117290&bvid=BV15Y4y1d7d2&cid=987048147&page=1">
 </video>
-</div>
-<!-- <div align=center>
-<iframe src="//player.bilibili.com/player.html?aid=651117290&bvid=BV15Y4y1d7d2&cid=987048147&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div> -->
+<div align=center>
+<iframe src="http://player.bilibili.com/player.html?aid=651117290&bvid=BV15Y4y1d7d2&cid=987048147&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
 
 ---
 
 ## 六、总结
-
-
+本节总结了一些问题。
+1. **小目标检测**：对于小目标，存在误检，可能检测不到
+2. **鼠标移动**：移动速度过快，无法最大程度仿真
+3. **弱点**：后台实时运行的脚本 + 不自然的鼠标移动模式
+4. **可能的优化方向**：远程外挂；多进程提速；数据集优化（增加人物模型等）；硬件性能提升（CPU+GPU）
+5. **三个问题**：
+     - **A. 坐标不一致性**
+       - 监听器和控制器不一致，即屏幕的物理尺寸<分辨率。Python获取的鼠标位置对应屏幕的物理位置，而非对应的分辨率。
+       - **解决方案**：ctypes库，开启windows提供的DPI感知。
+     - **B.相对距离**
+       - 由于FPS类游戏，鼠标位置始终在屏幕中心，需要以目标位置与当前鼠标位置的相对距离，作为移动指标。
+     - **C.数据输入**
+       - 对于CSGO等FPS类游戏，游戏内需要关闭数据原始输入。
+6. **写在最后**：博主并非专业人员，如有错误，请指正。
 
 ---
 ## 参考
