@@ -236,9 +236,12 @@ reprintPolicy: cc_by
 **CSGO中，注意在游戏内设置中关闭数据原始输入。**
 <div align=center>
 <video width="800" height="600" controls>
-<source src="https://www.bilibili.com/video/BV15Y4y1d7d2">
+<source src="//player.bilibili.com/player.html?aid=651117290&bvid=BV15Y4y1d7d2&cid=987048147&page=1">
 </video>
 </div>
+<!-- <div align=center>
+<iframe src="//player.bilibili.com/player.html?aid=651117290&bvid=BV15Y4y1d7d2&cid=987048147&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div> -->
 
 ---
 
