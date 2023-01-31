@@ -235,8 +235,8 @@ reprintPolicy: cc_by
 ### 3. 游戏内展示
 **CSGO中，注意在游戏内设置中关闭数据原始输入。**
 <div align=center>
-<video width="864" height="648" controls>
-<source src="/medias/video/display.mp4">
+<video width="800" height="600" controls>
+<source src="https://www.bilibili.com/video/BV15Y4y1d7d2">
 </video>
 </div>
 
