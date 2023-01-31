@@ -216,6 +216,31 @@ reprintPolicy: cc_by
 
 ## 五、项目部署与展示
 
+本节分为**项目部署**、**使用**和**游戏内展示**等3个部分。
+
+### 1. 项目部署
+- **A. Anaconda（推荐）和 PyTorch 的安装**
+- **B. 部署 YOLOv5**
+- **C. 自瞄模块的依赖库，可见项目的requirements.txt，依赖不多，也可根据报错安装**
+
+### 2. 使用
+- **进入项目目录**
+- **python z_detect5.py [可选参数]**，例如：
+  - python z_detect5.py --view-img --classes 0 1 2 3
+  - python z_detect5.py --classes 2
+  - python z_detect5.py
+  - ...
+- **上述命令推荐在命令行中运行，在PyCharm中使用，可能出现win32相关库的报错**
+
+### 3. 游戏内展示
+**CSGO中，注意在游戏内设置中关闭数据原始输入。**
+<div align=center>
+<video width="864" height="648" controls>
+<source src="/medias/video/display.mp4">
+</video>
+</div>
+
+---
 
 ## 六、总结
 
